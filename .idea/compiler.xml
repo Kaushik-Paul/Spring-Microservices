@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="Naming-Server" />
+        <module name="currency-conversion-service" />
+        <module name="SpringCloudConfigServer" />
+        <module name="SpringRestPractice" />
+        <module name="currency-exchange-service" />
+        <module name="LimitMicroservice" />
+        <module name="Api-Gateway" />
+        <module name="Currency-Conversion" />
+        <module name="customer" />
+        <module name="Currency-Enchage-Service" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="Api-Gateway" target="11" />
+      <module name="Currency-Conversion" target="17" />
+      <module name="currency-conversion-service" target="11" />
+      <module name="Currency-Enchage-Service" target="11" />
+      <module name="currency-exchange-service" target="11" />
+      <module name="customer" target="11" />
+      <module name="LimitMicroservice" target="11" />
+      <module name="MicroservicesDemo" target="11" />
+      <module name="Naming-Server" target="11" />
+      <module name="SpringCloudConfigServer" target="11" />
+      <module name="SpringRestPractice" target="11" />
+    </bytecodeTargetLevel>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="Api-Gateway" options="-parameters" />
+      <module name="Currency-Conversion" options="-parameters" />
+      <module name="Currency-Enchage-Service" options="-parameters" />
+      <module name="LimitMicroservice" options="-parameters" />
+      <module name="Naming-Server" options="-parameters" />
+      <module name="SpringCloudConfigServer" options="-parameters" />
+      <module name="SpringRestPractice" options="-parameters" />
+      <module name="currency-conversion-service" options="-parameters" />
+      <module name="currency-exchange-service" options="-parameters" />
+    </option>
+  </component>
+</project>

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="MavenProjectsManager">
+    <option name="originalFiles">
+      <list>
+        <option value="$PROJECT_DIR$/Api-Gateway/pom.xml" />
+        <option value="$PROJECT_DIR$/Naming-Server/pom.xml" />
+        <option value="$PROJECT_DIR$/Microservices Demo/pom.xml" />
+        <option value="$PROJECT_DIR$/Currency-Conversion/pom.xml" />
+        <option value="$PROJECT_DIR$/Spring Rest Practice/pom.xml" />
+        <option value="$PROJECT_DIR$/Spring-Microservices-in28minutes/05.kubernetes/currency-exchange-service/pom.xml" />
+        <option value="$PROJECT_DIR$/Spring-Microservices-in28minutes/05.kubernetes/currency-conversion-service/pom.xml" />
+        <option value="$PROJECT_DIR$/Spring-Microservices-in28minutes/Limit Microservice/pom.xml" />
+        <option value="$PROJECT_DIR$/Spring-Microservices-in28minutes/Currency-Enchage-Service/pom.xml" />
+        <option value="$PROJECT_DIR$/Spring-Microservices-in28minutes/Spring Cloud Config Server/pom.xml" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_17" default="true" project-jdk-name="corretto-17" project-jdk-type="JavaSDK" />
+</project>

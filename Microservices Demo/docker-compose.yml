@@ -1,0 +1,23 @@
+services:
+  postgres:
+    container_name: postgres_spring
+    image: "postgres:13.4"
+    environment:
+      POSTGRES_USER: admin
+      POSTGRES_PASSWORD: password
+      PGDATA: /data/postgres
+
+    volumes:
+      - postgres-spring:/data/postgres
+    ports:
+      - "5400:5432"
+    networks:
+      - postgres
+    restart: unless-stopped
+
+networks:
+  postgres:
+    driver: bridge
+
+volumes:
+  postgres-spring:
